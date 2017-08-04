@@ -1,0 +1,40 @@
+<style>
+    body {
+        width: 300px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 36px;
+    }
+
+    #figures {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #content {
+        text-align: center;
+    }
+
+    #content > table {
+        width: 100%;
+        text-align: center;
+        font-size: inherit;
+    }
+</style>
+
+<img src="images/icon_128.png" id="logo" alt="Icon"/>
+
+<div id="figures">
+    Total hash rate: <span id="total-hashrate">0</span> MH/s<br>
+    Total unpaid balance: <span id="unpaid-balance">0</span> ETH<br>
+</div>
+
+<div id="content">
+</div>
+
+<script src="js/popup.js"></script>
